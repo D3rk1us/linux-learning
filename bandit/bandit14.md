@@ -1,0 +1,21 @@
+# Bandit Nivel 14 -> Nivel 15
+
+## Objetivo
+
+La contraseña se puede recuperar enviando la contraseña del nivel actual al puerto 30000 en localhost.
+
+
+## Datos de acceso
+
+	- Usuario: bandit14
+	- Host: bandit.labs.overthewire.org
+	- Puerto: 2220
+
+## Comandos utilizados
+
+```bash
+
+ssh bandit14@bandit.labs.overthewire.org -p 2220
+
+
+telnet 127.0.0.1 30000
