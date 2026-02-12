@@ -37,5 +37,18 @@ exec more ~/text.txt
 exit 0
 
 
+# Para que esto funcione, primero reducimos la terminal a un tamaño mucho más pequeño.
+
 ssh bandit26@bandit.labs.overthewire.org -p 2220 -i /ruta/clave
+
+# Al reducirla el comando se comportará de manera diferente y podremos llamar a vim.
+
+v
+
+:set shell=/bin/bash
+:shell
+
+cd /home
+
+./bandit26/bandit27-do cat /etc/bandit_pass/bandit27
 
