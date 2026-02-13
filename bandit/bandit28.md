@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Hay un repositorio en ssh://bandit28-git@bandit.labs.overthewire.org/home/bandit28-git/repo en el puerto 2220. La contraseña es la misma del usuario bandit27.
+Hay un repositorio en ssh://bandit28-git@bandit.labs.overthewire.org/home/bandit28-git/repo en el puerto 2220. La contraseña es la misma del usuario bandit28.
 
 Desde la máquina local, clona el repositorio y encuentra la contraseña del siguiente nivel.
  
