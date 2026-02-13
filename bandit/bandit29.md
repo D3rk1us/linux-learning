@@ -31,12 +31,8 @@ cat README.md
 
 git log --all README.md
 
-cd .git/
+git branch -r
 
-cd objects/pack
+git checkout dev
 
-# Lista los archivos dentro del paquete.
-git verify-pack -v pack-80096cb9ae2cfb7ef7c83e86ca17570f5fa11462.idx
-
-# Muestra el contenido.
-git cat-file -p bc6ad3d129e3a0cbbf9295e3517833a248e1e520
+git log -p --all
